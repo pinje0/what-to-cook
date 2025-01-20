@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body * {
+  @apply transition-colors duration-1000;
+}
+
+.hover-opacity-animation {
+  @apply transition duration-500 hover:opacity-50;
+}
+
+.hero-text {
+  text-shadow: 2px 2px black;
+}
+
+.navbar-text {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-text::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: -0.25em;
+  right: -0.25em;
+  background-color: #fc2f70;
+  transform-origin: bottom center;
+  transform: scaleY(0.1);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.navbar-text:hover::before {
+  transform: scaleY(1);
+  background-color: hsla(341, 97%, 59%, 0.75);
+}
+
+/* From Uiverse.io by cssbuttons-io */
+.home-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 19px;
+  cursor: pointer;
+  color: white;
+  z-index: 1;
+}
+
+.home-button:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.home-button:after {
+  content: '';
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: hsla(341, 97%, 59%, 0.75);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.home-button:hover {
+  color: #ffffff;
+  border: 1px solid hsla(341, 97%, 59%, 0.75);
+}
+
+.home-button:hover:before {
+  top: -35%;
+  background-color: hsla(341, 97%, 59%, 0.75);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.home-button:hover:after {
+  top: -45%;
+  background-color: hsla(341, 97%, 59%, 0.75);
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
