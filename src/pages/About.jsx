@@ -2,7 +2,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-100 min-h-screen px-6 py-12">
+    <div className="flex flex-col items-center justify-center bg-gray-100 min-h-screen px-6 py-12 pt-36">
       {/* Purpose of the Application */}
       <section className="mb-12 max-w-4xl text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">About &quot;What to Cook&quot;</h1>
@@ -57,10 +57,10 @@ const About = () => {
       {/* GitHub Link */}
       <section className="mt-6">
         <a
-          href="#"
+          href="https://github.com/pinje0/what-to-cook"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center space-x-2 bg-neutral-900 text-white px-4 py-2 rounded-lg text-lg hover:bg-neutral-800"
+          className="flex items-center space-x-2 bg-neutral-900 text-white px-4 py-2 rounded-lg text-lg hover:bg-neutral-700"
         >
           <FaGithub size={24} />
           <span>View Repository on GitHub</span>
