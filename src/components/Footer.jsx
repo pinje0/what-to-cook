@@ -16,7 +16,7 @@ const Footer = () => {
             <a
               href="https://github.com/pinje0/what-to-cook"
               target="_blank"
-              className="hover-opacity-animation mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-400 text-white hover:border-[#fc2f70] hover:bg-[#fc2f70]"
+              className="hover-opacity-animation mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-400 text-white hover:border-[#FBEFE1] hover:bg-[#FBEFE1]"
             >
               <svg
                 role="img"
