@@ -37,11 +37,11 @@ const Home = () => {
           <div className="w-full self-end px-4 lg:w-1/2">
             <div className="relative mt-10 lg:right-0 lg:mt-9">
               <div className="sm:pt-0-10 relative mt-10 mb-16 lg:right-0 lg:mt-9">
-                <img
+                {/* <img
                   src="./images/7d60ac2f86a57604fb246c3d6a6f3ede.jpg"
                   alt=""
                   className="relative z-10 mx-auto max-w-60  rounded-full"
-                />
+                /> */}
               </div>
             </div>
           </div>
