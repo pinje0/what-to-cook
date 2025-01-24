@@ -25,6 +25,39 @@ const About = () => {
         </ul>
       </section>
 
+      {/* API Limitations */}
+      <section className="mb-12 max-w-4xl text-center">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">API Limitations</h2>
+        <p className="text-lg text-gray-600">
+          This application uses the free tier of the Spoonacular API, which comes with several limitations:
+        </p>
+        <ul className="text-lg text-gray-600 list-disc list-inside mt-4">
+          <li>Maximum of 150 requests per day.</li>
+          <li>Some recipe information might be incomplete or unavailable.</li>
+          <li>
+            Limited access to advanced features such as taste profile analysis and meal plan generation.
+          </li>
+        </ul>
+        <p className="mt-4 text-lg text-gray-600">
+          Due to these constraints, certain recipe details or functionalities may not be fully supported.
+        </p>
+      </section>
+
+      {/* Copyright Information */}
+      <section className="mb-12 max-w-4xl text-center">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">Copyright Information</h2>
+        <p className="text-lg text-gray-600">
+          All recipe data and images are sourced from the Spoonacular API. These assets are copyrighted by
+          their respective owners and are used in compliance with Spoonacular's API terms of use.
+        </p>
+        <p className="mt-4 text-lg text-gray-600">
+          Additionally, some media assets used in this application, including icons, images, and GIFs, are
+          sourced from the internet. These are used under fair use or with proper attribution to their
+          original creators, where required. If you believe your work is being used without appropriate
+          permission, please contact us to address the issue promptly.
+        </p>
+      </section>
+
       {/* Team Structure */}
       <section className="mb-12 max-w-4xl text-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Team Structure</h2>
@@ -60,7 +93,7 @@ const About = () => {
           href="https://github.com/pinje0/what-to-cook"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center space-x-2 bg-neutral-900 text-white px-4 py-2 rounded-lg text-lg hover:bg-neutral-700"
+          className="flex items-center space-x-2 bg-neutral-900 text-white px-4 py-2 rounded-lg text-lg hover-opacity-animation"
         >
           <FaGithub size={24} />
           <span>View Repository on GitHub</span>
