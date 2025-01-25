@@ -34,18 +34,10 @@ const Footer = () => {
             &#169;2025 by{' '}
             <a
               target="_blank"
-              href="https://www.instagram.com/pinje__/"
+              href="https://github.com/pinje0/what-to-cook"
               className="transition duration-500 hover:brightness-125"
             >
-              pinje
-            </a>{' '}
-            |{' '}
-            <a
-              target="_blank"
-              href="https://www.instagram.com/yu._rak/"
-              className="transition duration-500 hover:brightness-125"
-            >
-              ユラク
+              What to Cook
             </a>
           </p>
         </div>
