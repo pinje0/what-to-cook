@@ -53,6 +53,11 @@ const About = () => {
       <section className="mb-12 max-w-4xl text-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Copyright Information</h2>
         <p className="text-lg text-gray-600">
+          This website uses media, including images and other content, sourced from the internet for
+          non-commercial and educational purposes. All rights to the media belong to their respective owners,
+          and full credit goes to the original creators
+        </p>
+        <p className="mt-4 text-lg text-gray-600">
           All recipe data and images are sourced from the Spoonacular API. These assets are copyrighted by
           their respective owners and are used in compliance with Spoonacular's API terms of use.
         </p>
@@ -65,7 +70,7 @@ const About = () => {
       </section>
 
       {/* Team Structure */}
-      <section className="mb-12 max-w-4xl text-center">
+      <section className="mb-12 max-w-5xl text-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Team Structure</h2>
         <ul className="text-lg text-gray-600 list-disc list-inside">
           <li>
@@ -89,8 +94,8 @@ const About = () => {
             compatibility tests.
           </li>
           <li>
-            <strong>Documentation:</strong> Wahyu Anggan (11121283) - Prepares technical documentation and
-            user guides.
+            <strong>Documentation:</strong> Wahyu Anggana Kafitra (11121283) - Prepares technical
+            documentation and user guides.
           </li>
         </ul>
       </section>
