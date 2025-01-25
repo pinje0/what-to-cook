@@ -1,8 +1,14 @@
 import { FaGithub } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
 
 const About = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-gray-100 min-h-screen px-6 py-12 pt-36">
+      {/* Helmet */}
+      <Helmet>
+        <title>What to Cook | About</title>
+      </Helmet>
+
       {/* Purpose of the Application */}
       <section className="mb-12 max-w-4xl text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">About &quot;What to Cook&quot;</h1>
@@ -63,26 +69,28 @@ const About = () => {
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Team Structure</h2>
         <ul className="text-lg text-gray-600 list-disc list-inside">
           <li>
-            <strong>Project Manager:</strong> Muhammad Irfan - Coordinates the team and ensures smooth project
-            execution.
+            <strong>Project Manager:</strong> Muhammad Irfan (10121859) - Coordinates the team and ensures
+            smooth project execution.
           </li>
           <li>
-            <strong>Front-End Developer:</strong> Muhammad Irfan - Develops the user interface of the
-            application.
+            <strong>Front-End Developer:</strong> Muhammad Irfan (10121859) - Develops the user interface of
+            the application.
           </li>
           <li>
-            <strong>Back-End Developer:</strong> Melvin Austin Korwa - Manages server logic and data handling.
+            <strong>Back-End Developer:</strong> Melvin Austin Korwa (10121709) - Manages server logic and
+            data handling.
           </li>
           <li>
-            <strong>UI/UX Designer:</strong> Muhammad Faizar Rahman Kuswandi - Designs an intuitive and
-            user-friendly interface.
+            <strong>UI/UX Designer:</strong> Muhammad Faizar Rahman Kuswandi (10121818) - Designs an intuitive
+            and user-friendly interface.
           </li>
           <li>
-            <strong>Tester:</strong> Arafah Raditya Rangga Putra - Conducts functionality and compatibility
-            tests.
+            <strong>Tester:</strong> Arafah Raditya Rangga Putra (10121189) - Conducts functionality and
+            compatibility tests.
           </li>
           <li>
-            <strong>Documentation:</strong> Wahyu Anggan - Prepares technical documentation and user guides.
+            <strong>Documentation:</strong> Wahyu Anggan (11121283) - Prepares technical documentation and
+            user guides.
           </li>
         </ul>
       </section>

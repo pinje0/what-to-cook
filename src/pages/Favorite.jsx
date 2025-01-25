@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const Favorite = () => {
   const [favorites, setFavorites] = useState([]);
@@ -18,6 +19,10 @@ const Favorite = () => {
   if (favorites.length === 0) {
     return (
       <div className="min-h-screen pt-36 px-4 bg-gray-100">
+        {/* Helmet */}
+        <Helmet>
+          <title>What to Cook | Favorite</title>
+        </Helmet>
         <div className="container mx-auto text-center">
           <h1 className="text-3xl font-bold mb-6">Favorite Recipes</h1>
           <p className="text-gray-600">You have no favorite recipes saved yet.</p>

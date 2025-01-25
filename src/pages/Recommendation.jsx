@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import { Helmet } from 'react-helmet-async';
 
 const Recommendation = () => {
   const [ingredients, setIngredients] = useState('');
@@ -25,6 +26,11 @@ const Recommendation = () => {
 
   return (
     <div className="min-h-screen pt-36  mb-10">
+      {/* Helmet */}
+      <Helmet>
+        <title>What to Cook | Recommendation</title>
+      </Helmet>
+
       <div className="container mx-auto px-4">
         <h1 className="text-3xl font-bold mb-4 text-center">Recipe Recommendations</h1>
         <p className="text-sm text-red-500 text-center mb-6">

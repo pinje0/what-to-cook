@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const RecipeDetail = () => {
   const { id } = useParams();
@@ -73,6 +74,10 @@ const RecipeDetail = () => {
 
   return (
     <div className="min-h-screen pt-36 px-4 mb-10">
+      {/* Helmet */}
+      <Helmet>
+        <title>What to Cook | Recipe Detail</title>
+      </Helmet>
       <div className="container mx-auto">
         {/* Peringatan keterbatasan API */}
         <p className="mb-4 text-yellow-600 bg-yellow-100 p-4 rounded-lg">

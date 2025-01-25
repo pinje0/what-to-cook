@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
   return (
@@ -9,6 +10,11 @@ const Home = () => {
         backgroundImage: "url('/images/f1c3fc727775a7378b32c4596e2e0ca2.gif')",
       }}
     >
+      {/* Helmet */}
+      <Helmet>
+        <title>What to Cook | Home</title>
+      </Helmet>
+
       {/* Caution */}
       <link
         rel="stylesheet"
