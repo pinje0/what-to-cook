@@ -60,12 +60,12 @@ The app is deployed on Vercel. You can view the live version here:
 
 ---
 
-## Technologies Used
+## Built With
 
-- **Frontend**: React, Vite, Tailwind CSS
-- **API**: Spoonacular API (for recipe data)
-- **Deployment**: Vercel
-- **Icons**: react-icons
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 ---
 
@@ -84,12 +84,6 @@ The app is deployed on Vercel. You can view the live version here:
 
 - **API Key Handling**: Ensure your API key is kept private. The key prefixed with `VITE_` will be exposed in the browser, so verify its safety for public use.
 - **Copyright Notice**: This website uses media, including images and other content, sourced from the internet for non-commercial and educational purposes. All rights to the media belong to their respective owners, and full credit goes to the original creators.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
 
