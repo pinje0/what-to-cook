@@ -33,7 +33,7 @@ const Home = () => {
               cooking experience.
             </p>
             <Link
-              to="/rekomendasi"
+              to="/recommendation"
               className="button-74 bg-neutral-900 text-white px-6 py-4 rounded-lg text-lg"
             >
               Start Searching for Recipes
