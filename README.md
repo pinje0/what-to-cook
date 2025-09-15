@@ -67,16 +67,6 @@ The app is deployed on Vercel. You can view the live version here:
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
----
-
-## Team Members
-
-- **Project Manager**: Muhammad Irfan (10121859) - Oversees project progress and delivery.
-- **Front-End Developer**: Muhammad Irfan (10121859) - Develops the user interface.
-- **Back-End Developer**: Melvin Austin Korwa (10121709) - Handles server logic and API integration.
-- **UI/UX Designer**: Muhammad Faizar Rahman Kuswandi (10121818) - Creates user-friendly designs.
-- **Tester**: Arafah Raditya Rangga Putra (10121189) - Conducts testing and ensures quality.
-- **Documentation**: Wahyu Anggana Kafitra (11121283) - Writes technical documentation and user guides.
 
 ---
 
