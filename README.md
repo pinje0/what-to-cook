@@ -77,8 +77,9 @@ The app is deployed on Vercel. You can view the live version here:
 
 ---
 
-## Contact
+## License
 
-If you have any questions, feel free to reach out to the team via GitHub or open an issue in this repository.
+This project is licensed under the MIT License.
 
-GitHub Repository: [https://github.com/pinje0/what-to-cook](https://github.com/pinje0/what-to-cook)
+Note: Images, icons, and recipe data obtained from external APIs or sources
+are not covered by this license and remain the property of their respective owners.
